@@ -10,8 +10,8 @@ const YourLibrary = () => {
           <AlbumCardList title="Your favourite songs" songs={savedSongs} />
         ) : (
           <>
-            <h1>You don't have any saved song yet!</h1>
-            <h4>Click the hearth next to one you like!</h4>
+            <h1>You didn' save any song!</h1>
+            <h4>Add it!</h4>
           </>
         )}
       </div>
